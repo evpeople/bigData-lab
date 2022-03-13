@@ -4,3 +4,4 @@ systemctl stop firewalld
 systemctl disable firewalld
 systemctl status firewalld
 chmod +x ./sshGen.sh
+chmod +x ./hosts.sh
