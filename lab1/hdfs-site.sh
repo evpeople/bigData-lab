@@ -56,7 +56,7 @@ echo "<configuration>
 </property>
 <property>
  <name>yarn.resourcemanager.hostname</name>
- <value>nodeName</value>
+ <value>$nodeName</value>
 </property>
 <property>
  <name>yarn.log-aggregation-enable</name>
@@ -83,7 +83,7 @@ containers</description>
  </property>
 <property>
  <name>yarn.log.server.url</name>
- <value>http://nodeName:19888/jobhistory/logs</value>
+ <value>http://$nodeName:19888/jobhistory/logs</value>
 </property>
 </configuration>" >  /home/modules/hadoop-2.7.7/etc/hadoop/yarn-site.xml
 
