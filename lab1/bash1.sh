@@ -6,3 +6,4 @@ systemctl status firewalld
 chmod +x ./sshGen.sh
 chmod +x ./hosts.sh
 chmod +x ./openJDK.sh
+chmod +x ./hadoop.sh
