@@ -1,4 +1,4 @@
-yum install expect -y
+#!/usr/bin/expect -f
 set timeout -1
 spawn ssh-keygen -t rsa
 match_max 100000
