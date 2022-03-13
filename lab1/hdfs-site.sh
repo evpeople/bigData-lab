@@ -16,4 +16,4 @@ echo "<configuration>
  <name>dfs.namenode.secondary.https-address</name>
  <value>$nodeName:50091</value>
 </property>
-</configuration>"
+</configuration>" >/home/modules/hadoop-2.7.7/etc/hadoop/hdfs-site.xml
