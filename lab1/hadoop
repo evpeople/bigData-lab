@@ -2,9 +2,12 @@
 accessKey=kkkdsagdfagfdjj
 secretKey=12334345346t4
 endpoint=fsafasdgagffdfgad
+
+rm -rf /home/modules/
+mkdir /home/modules/
 cp -r ~/lab2/hadoop-2.7.7 /home/modules/
 cd /home/modules/
-export JAVA_HOME=/usr/lib/jvm/jdk8u292-b10>>/home/modules/hadoop-2.7.7/etc/hadoop/hadoop-env.sh
+echo 'export JAVA_HOME=/usr/lib/jvm/jdk8u292-b10' >>/home/modules/hadoop-2.7.7/etc/hadoop/hadoop-env.sh
 
 echo "<configuration>
 <property>
