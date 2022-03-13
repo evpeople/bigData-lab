@@ -112,3 +112,5 @@ echo "<configuration>
 echo "$salve1
 $salve2
 $salve3" >/home/modules/hadoop-2.7.7/etc/hadoop/slaves
+
+echo "finish"
