@@ -1,0 +1,5 @@
+#!/bin/bash
+cp -r ~/lab2/hadoop-2.7.7 /home/modules/
+cd /home/modules/
+export JAVA_HOME=/usr/lib/jvm/jdk8u292-b10>>/home/modules/hadoop-2.7.7/etc/hadoop/hadoop-env.sh
+
