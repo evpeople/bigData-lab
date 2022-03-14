@@ -1,7 +1,18 @@
 #!/bin/bash
-accessKey=kkkdsagdfagfdjj
-secretKey=12334345346t4
-endpoint=fsafasdgagffdfgad
+echo "please input  accessKey"
+read accessKey
+
+echo "please input secretKey"
+read secretKey
+
+echo "please input endpoint"
+read endpoint
+
+# accessKey=kkkdsagdfagfdjj
+# secretKey=12334345346t4
+# endpoint=fsafasdgagffdfgad
+
+
 
 rm -rf /home/modules/
 mkdir /home/modules/

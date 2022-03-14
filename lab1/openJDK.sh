@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#Author :evpeople
 cp ~/lab2/OpenJDK8U-jdk_aarch64_linux_openj9_8u292b10_openj9-0.26.0.tar /usr/lib/jvm
 cd /usr/lib/jvm/
 tar -vxf OpenJDK8U-jdk_aarch64_linux_openj9_8u292b10_openj9-0.26.0.tar

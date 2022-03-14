@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#Author :evpeople
 echo "please input  master node name"
 read nodeName
 
